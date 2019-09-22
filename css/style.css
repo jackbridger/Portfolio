@@ -1,14 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
-
+:root {
+    --main-green: #00B495;
+    --main-whiteish: white;
+    --main-font: #315350;
+    --secondary-font: #C4C4C4;
+    --light-grey: #F4F4F4;
+    --dark-grey: #7B7979;
+}
 body {
- background-color: white;
- color: #315350;
+ background-color: var(--main-whiteish);
+ color: var(--main-font);
  font-family: 'Raleway', sans-serif;
 }
-.jack-photo {
-    width: 100%;
-}
 
-button {
 
+.button {
+    text-decoration: none;
+    /* center the text in the button */
+    display: block;
+    text-align: center;
+    vertical-align: middle;
 }
