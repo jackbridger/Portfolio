@@ -6,11 +6,17 @@
     --secondary-font: #C4C4C4;
     --light-grey: #F4F4F4;
     --dark-grey: #7B7979;
+    --light-grey2: #F5F8F4
 }
 body {
  background-color: var(--main-whiteish);
  color: var(--main-font);
  font-family: 'Raleway', sans-serif;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ font-size: 16px;
+ line-height: 24px
 }
 
 
@@ -20,4 +26,30 @@ body {
     display: block;
     text-align: center;
     vertical-align: middle;
+}
+
+.button--proceed {
+    line-height: 30px; /* Same as the height */
+    background-color: var(--main-green);
+    color: var(--main-whiteish);
+    /* button size */
+    height: 30px;
+    width: 150px;
+}
+
+h1 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bolder;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
 }

@@ -1,14 +1,10 @@
-.button--proceed {
-    line-height: 30px; /* Same as the height */
-    background-color: var(--main-green);
-    color: var(--main-whiteish);
-    /* button size */
-    height: 30px;
-    width: 150px;
-}
-
-
 .jack-photo {
     width: 100%;
 }
 
+.title--job-title {
+    color: var(--secondary-font)
+}
+.fa-github {
+    align-self: flex-end;
+}

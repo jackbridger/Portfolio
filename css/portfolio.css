@@ -1,4 +1,6 @@
-
+body {
+    padding: 2rem;
+}
 
 .button--back {
     line-height: 30px; /* Same as the height */
@@ -7,5 +9,30 @@
     /* button size */
     line-height: 30px;
     height: 30px;
-    width: 150px;
+    width: 100px;
+    align-self: flex-start;
 }
+
+.portfolio-box {
+    background-color: var(--light-grey2);
+    width: 90%;
+}
+
+.portfolio-box img {
+    width: 100%;
+}
+.portfolio-box--links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+.fa-github {
+    padding-right: 20px;
+
+}
+.portfolio-box--title, .portfolio-box--description, .portfolio-box--links {
+    padding-left: 1rem
+}
+
+
