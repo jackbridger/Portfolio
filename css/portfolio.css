@@ -15,7 +15,8 @@ body {
 
 .portfolio-box {
     background-color: var(--light-grey2);
-    width: 90%;
+    grid-column: 1/9;
+    margin-bottom: 3rem;
 }
 
 .portfolio-box img {
@@ -33,6 +34,13 @@ body {
 }
 .portfolio-box--title, .portfolio-box--description, .portfolio-box--links {
     padding-left: 1rem
+}
+
+.title--portfolio {
+    grid-row: 1 /1;
+    grid-column: 1/9;
+    text-align: center;
+    margin: 2rem 0;
 }
 
 
