@@ -67,17 +67,3 @@ body {
     align-items: center;
 }
 
-svg {
-    fill: var(--main-font);
-}
-
-svg:hover {
-    fill: var(--main-green);
-}
-svg ellipse {
-    fill: var(--main-font);
-}
-
-svg ellipse:hover {
-    fill: var(--main-green);
-}

@@ -11,13 +11,33 @@ body {
     height: 30px;
     width: 100px;
     align-self: flex-start;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+.button--back i, svg {
+    margin: 0 -0.7rem; 
+}
+
 
 .button--back:hover {
 
     background-color: var(--dark-grey);
     color: var(--main-whiteish);
+    fill: var(--main-whiteish);
+    
 }
+.github-icon {
+    fill: var(--main-font)
+}
+.github-icon:hover {
+    fill: var(--main-green)
+}
+
+.button--back svg:hover {
+    fill: inherit
+}
+
 
 .portfolio-box {
     background-color: var(--light-grey2);
@@ -59,3 +79,4 @@ body {
         margin: 3.5rem 0;  
     } 
 }
+
