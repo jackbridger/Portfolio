@@ -41,3 +41,12 @@ footer {
 .bullet {
     color:var(--main-font);
 }
+
+@media only screen and (min-width: 700px) {
+    .jack-photo {
+        margin-top: 5rem;
+    }
+    footer {
+        margin-top: 2rem;
+    }
+}

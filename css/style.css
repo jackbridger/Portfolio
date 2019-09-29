@@ -33,6 +33,10 @@ body {
     height: 30px;
     width: 150px;
 }
+.button--proceed:hover {
+    background-color: var(--main-font);
+    color: var(--main-whiteish);
+}
 
 h1 {
     font-size: 24px;
